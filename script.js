@@ -21,9 +21,6 @@ $(document).ready(function () {
 
   //   });
   // });
-  $('#currentDay').text(current);
-  var current = dayjs().format('dddd, MMMM D');
-
 $(".saveButton").on("click", function(){
   console.log('this');
   var timeBlock = $(this).child("description").val();
@@ -55,7 +52,7 @@ $(".saveButton").on("click", function(){
   // current hour in 24-hour time?
   //
   function trackHour(){
-  var currentHour = dayjs().format('H');
+  var currentHour = dayjs().hour();
 
 
 $(".time-block").each(function(){
