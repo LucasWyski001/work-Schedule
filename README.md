@@ -15,7 +15,7 @@ things such as a note pad, the application is also color coded in the sense to m
 
 
 ## Link and image
-https://lucaswyski001.github.io/coding-quiz/
+https://lucaswyski001.github.io/work-Schedule/
 ![webpage screenshot](work-schedule.jpg)
 N/A
 
